@@ -12,7 +12,7 @@ createCanvas (w,h);
 background (0);
 var spot = data.spot;
 
-var i = 105;
+var i = 7;
 var title = data.spot[i].title;
 var timem;
 var oram;
