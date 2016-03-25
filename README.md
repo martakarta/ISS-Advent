@@ -17,6 +17,6 @@ The sourse code filters this information and shows which day and at what time th
 ### Berlin
 As an example the visualisation of the moments of visibility in Berlin. The axis x rappresent the december days and the axis y the hours in a day.
 
-<img src="https://raw.githubusercontent.com/martakarta/LookUp/master/berlin1.png"/>
+<img src="https://raw.githubusercontent.com/martakarta/LookUp/master/berlin.png"/>
 
 
