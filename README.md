@@ -10,7 +10,7 @@ Goal of the project was to create a Data Visualisation based on the geographical
 The inspiration for this visualisation was the thought, that the ISS is actually visible naked eyes from the earth. For doing that is thou necessary to know when to look up. The json data in this repository delivers the all the visible moments of the ISS in December 2015 from the main cities of Germany. 
 
 <img src="https://raw.githubusercontent.com/martakarta/LookUp/master/1.png"/>
-*All the moments, when the ISS has been visible in Germany in December 2015.*
+*Red = moments of visibility; White = German cities*
 
 
 
