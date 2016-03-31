@@ -4,7 +4,7 @@ var w = 700;
 var h = 700;
 
 function preload(){
-data = loadJSON("iss-spotting.json");
+data = loadJSON("iss-spotting.json");	//load json data
 }
 
 function setup(){
@@ -24,6 +24,7 @@ var name = title.substring(31);
 	textSize (20);
 	text(name, 700/2, 150);
 
+// extract just ISS sightings
 	for(var j = 0; j<spot[i].sightings.length; j++){
 		var myvalue = data.spot[i].sightings[j].Title;
 		if(myvalue === null){continue};
@@ -31,6 +32,8 @@ var name = title.substring(31);
 		if (sightings !== "ISS Sighting"){continue};
 		//console.log (sightings);
 
+
+//transform day from text to value
 		for(var k = 0; k<spot[i].sightings.length; k++){
 			var tmp = data.spot[i].sightings[j].Start;
 			var time = tmp.substring(8,10);
@@ -38,7 +41,7 @@ var name = title.substring(31);
 			//console.log(time);
 			timem = map (dayAsNumber,1,19,0, h);
 			if(time === null){continue};	
-
+//transform hours from text to value
 		for(var l = 0; l<spot[i].sightings.length; l++){
 			var tmp = data.spot[i].sightings[j].Start;
 			var ora = tmp.substring(11,15);
@@ -51,24 +54,13 @@ var name = title.substring(31);
 		fill (20, 110, 150, 90);
 		ellipse (timem, oram, 30, 30);	
 		}
-	
-	
 	}
-
 	}
 }
 
 function draw(){
-
-
 }
 
-
-//function mousePressed(){
-//background (120);
-//
-//
-//}
 
 
 
