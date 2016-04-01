@@ -19,4 +19,4 @@ As an example the visualisation of the moments of visibility in Berlin. The axis
 
 <img src="https://raw.githubusercontent.com/martakarta/LookUp/master/berlin.png"/>
 
-
+<img src="https://raw.githubusercontent.com/martakarta/LookUp/master/Look_beauty-shot.png"/>
